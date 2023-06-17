@@ -9,6 +9,9 @@ This small library was borne out of the need to easily translate errors between 
 allowed for a clean syntax in our monad driven for-comprehensions. This library makes use of typeclasses to simplify such
 conversion and requires minimal setup to use with `Option`, `Either` and `EitherT[Future, _, _]`.
 
+This library has been spun out of another project as other projects might find use for this, or I might find use for 
+this on other projects.
+
 ## Using this library
 
 You can define your conversions by creating a `ErrorTranslator` and defining an `implicit`, e.g.
